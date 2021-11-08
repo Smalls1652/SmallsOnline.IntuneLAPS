@@ -1,0 +1,5 @@
+{
+    "lapsUri": "http://localhost:7071/api/SetClientPassword",
+    "maxPasswordAge": 1,
+    "localAdminUserName": "IntuneLocalAdmin"
+}
