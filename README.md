@@ -2,6 +2,8 @@
 
 **⚠️ This is a work-in-progress and nowhere near ready for production use.**
 
+**⚠️ The name of this project will more than likely change.**
+
 This project is for implementing a client/server LAPS (Local Administrator Password Solution) that isn't reliant on an on-premises Active Directory infrastructure. One of the main issues for IT support staff to perform administrative tasks on Azure AD joined devices is not having the ability to have a local admin account readily available that isn't using a password that is well known across the board.
 
 [Microsoft has LAPS](https://www.microsoft.com/en-us/download/details.aspx?id=46899), but that unfortunately requires a device to be joined to an on-premises Active Directory domain. This will be usable on any Windows-based device.
