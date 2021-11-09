@@ -12,7 +12,7 @@
 			"type": "process",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/src\\SmallsOnline.IntuneLAPS.AzFunctionsv5"
+				"cwd": "${workspaceFolder}/src/SmallsOnline.IntuneLAPS.AzFunctions"
 			}
 		},
 		{
@@ -31,7 +31,7 @@
 			},
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/src\\SmallsOnline.IntuneLAPS.AzFunctionsv5"
+				"cwd": "${workspaceFolder}/src/SmallsOnline.IntuneLAPS.AzFunctions"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "process",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/src\\SmallsOnline.IntuneLAPS.AzFunctionsv5"
+				"cwd": "${workspaceFolder}/src/SmallsOnline.IntuneLAPS.AzFunctions"
 			}
 		},
 		{
@@ -64,14 +64,14 @@
 			"dependsOn": "clean release (functions)",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/src\\SmallsOnline.IntuneLAPS.AzFunctionsv5"
+				"cwd": "${workspaceFolder}/src/SmallsOnline.IntuneLAPS.AzFunctions"
 			}
 		},
 		{
 			"type": "func",
 			"dependsOn": "build (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/src\\SmallsOnline.IntuneLAPS.AzFunctionsv5/bin/Debug/net5.0"
+				"cwd": "${workspaceFolder}/src/SmallsOnline.IntuneLAPS.AzFunctions/bin/Debug/net6.0"
 			},
 			"command": "host start",
 			"isBackground": true,
